@@ -1,64 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oleg Kulikov - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 60%;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .contact-info, .section {
-            margin-bottom: 20px;
-        }
-        .contact-info p, .section p {
-            margin: 5px 0;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
+<div class="wraper">
     <div class="container">
-        <h1>Oleg Kulikov</h1>
-        <div class="contact-info">
-            <p><strong>Location:</strong> Klagenfurt am Wörthersee, Austria</p>
-            <p><strong>Phone:</strong> +43 664 99149837</p>
-            <p><strong>Email:</strong> olkulikov@edu.aau.at</p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/OlegKulikov09">github.com/OlegKulikov09</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/kulikovoleg">linkedin.com/in/kulikovoleg</a></p>
+        <div class="left-content p-30">
+            <div class="logo">
+                <a href="index.html">
+                    <span>Oleg</span>
+                    <span>Kulikov</span>
+                </a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#WorkProfile">Work Profile</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="left-footer">
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="https://linkedin.com/in/kulikovoleg"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/OlegKulikov09"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="foot-contact">
+                    <ul>
+                        <li>olkulikov@edu.aau.at</li>
+                        <li>+43 664 99149837</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        
-        <div class="section">
-            <h2>Summary</h2>
-            <p>ML/AI Engineer with experience in reinforcement learning, large language models, and full-stack development. Skilled in data preprocessing and management, fine-tuning transformer-based models for NLP tasks, system design, and deployment, with proficiency in modern tools and technologies. Passionate about building intelligent systems and optimizing model performance.</p>
-        </div>
-        
-        <div class="section">
-            <h2>Skills</h2>
-            <p><strong>Programming Languages:</strong> Java, Python, C, SQL</p>
-            <p><strong>ML Tools:</strong> PyTorch, TensorFlow, Pandas</p>
-            <p><strong>Data Management:</strong> PostgreSQL, MongoDB, Concepts of Hadoop, Spark</p>
-            <p><strong>Other:</strong> Git, Docker, MATLAB</p>
-        </div>
-        
-        <div class="section">
-            <h2>Projects</h2>
-            <p><strong>Reinforcement Learning Project:</strong></p>
-            <p>The environment, agents, and reward system were defined. A four-layer neural network (two hidden layers) was implemented. Two agents compete against each other, optimizing their strategies through reinforcement learning.</p>
+        <div class="main-content">
+            <!-- Home Section -->
+            <div class="section1 p-30" id="Home">
+                <div class="sec-title">
+                    <div class="pg-sub-title">Home</div>
+                    <div class="pg-title">My Profile</div>
+                </div>
+                <div class="d-flex-align-center">
+                    <div class="user-profile flex-1">
+                        <div class="pro-details">
+                            <div class="name">Oleg Kulikov</div>
+                            <div class="role">ML/AI Engineer</div>
+                        </div>
+                        <div class="text">
+                            ML/AI Engineer with experience in reinforcement learning, large language models, and full-stack development. Skilled in data preprocessing and management, fine-tuning transformer-based models for NLP tasks, system design, and deployment, with proficiency in modern tools and technologies. Passionate about building intelligent systems and optimizing model performance.
+                        </div>
+                        <div class="pr-list">
+                            <ul>
+                                <li><i class="fa fa-calendar" aria-hidden="true"></i> March 2023 - Present</li>
+                                <li><i class="fa fa-location-arrow" aria-hidden="true"></i> Klagenfurt am Worthersee, Austria</li>
+                            </ul>
+                        </div>
+                        <div class="social-icons-head">
+                            <ul>
+                                <li><a href="https://linkedin.com/in/kulikovoleg"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                <li><a href="https://github.com/OlegKulikov09"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Section -->
+            <div class="section1 p-30" id="Portfolio">
+                <div class="sec-title">
+                    <div class="pg-sub-title">Portfolio</div>
+                    <div class="pg-title">Projects</div>
+                    <div class="project-title">
+                        <br>
+                        <strong><a href="https://github.com/OlegKulikov09/ML-project">Reinforcement Learning Project</a></strong>
+                    </div>
+                    <p>(Python, PyTorch)</p>
+                    <p>The environment, agents, and reward system were defined. A four-layer neural network (two hidden layers) was implemented. Two agents compete against each other, making decisions based on reinforcement learning. The model achieved a maximum decision-making efficiency of 95%.</p>
+                    <div class="project-title">
+                        <strong><a href="https://github.com/OlegKulikov09/JavaSpringApp">Web Project</a></strong>
+                    </div>
+                    <p>(Java, Spring Boot, Spring Security, PostgreSQL, Docker)</p>
+                    <p>A web service was implemented for creating and viewing text entries. Features include profile creation and editing with different roles, access level management based on roles, a post rating system, data storage and database integration, and password encryption.</p>
+                </div>
+            </div>
+
+            <!-- Work Profile Section -->
+            <div class="section1 p-30" id="WorkProfile">
+                <div class="sec-title">
+                    <div class="pg-sub-title">Work Profile</div>
+                    <div class="pg-title">Past Experience</div>
+                </div>
+                <div class="job-title">
+                    <strong>Deputy Chief Financial Manager at "Ruble Boom" Group</strong> (04.2021 - 12.2024)
+                </div>
+                <ul>
+                    <li>- Analysis of key performance indicators, strategy development, and implementation.</li>
+                    <li>- Team collaboration and business objective optimization.</li>
+                    <li>- Reduced company's average functional expenses by 14%.</li>
+                    <li>- Introduced new international logistics routes, reducing transportation costs by 22%.</li>
+                </ul>
+                <br>
+                <div class="job-title">
+                    <strong>Head of the Production and Technical Sector, RZD-Medicine</strong> (11.2018 - 03.2021)
+                </div>
+                <ul>
+                    <li>- Project management and implementation of a medical information system.</li>
+                    <li>- Optimization of routing and data storage.</li>
+                    <li>- Reduced operational costs across several clinic functions by up to 40%.</li>
+                </ul>
+            </div>
+
+            <!-- Education Section -->
+            <div class="section1 p-30" id="Education">
+                <div class="sec-title">
+                    <div class="pg-sub-title">Education</div>
+                    <div class="pg-title">Academic Background</div>
+                </div>
+                <div class="edu-title">
+                    <strong>Robotics & Artificial Intelligence (Bachelor Program)</strong><br>
+                    Alpen-Adria-University Klagenfurt (03.2023 - Present)
+                </div>
+                <br>
+                <div class="edu-title">
+                    <strong>Economics (Bachelor + Master Program)</strong><br>
+                    Saratov State University (N.G. Chernyshevsky) (09.2011 - 07.2017)
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="section1 p-30" id="Contact">
+                <div class="sec-title">
+                    <div class="pg-sub-title">Contact</div>
+                    <div class="pg-title">Get in Touch</div>
+                    <br>
+                <div class="contact-details">
+                    <ul>
+                        <li>Email: olkulikov@edu.aau.at</li>
+                        <li>Phone: +43 664 99149837</li>
+                        <li>Telegram: @olegkulikov09</li>
+                        <li>Location: Klagenfurt am Worthersee, Austria</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+</div>
 </body>
 </html>
