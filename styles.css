@@ -514,11 +514,9 @@ Page Styles
   flex-wrap: wrap;
 }
 
-.profile-photo img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #ddd;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+.profile-image img {
+  height: 200px;
+  width: auto;
+  display: block;
+  max-width: 100%;
 }
