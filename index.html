@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Oleg Kulikov - Resume</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -18,6 +19,7 @@
             <div class="nav">
                 <ul>
                     <li><a href="#Home">Home</a></li>
+                    <li><a href="#Skills">Skills</a></li>
                     <li><a href="#Portfolio">Portfolio</a></li>
                     <li><a href="#WorkProfile">Work Profile</a></li>
                     <li><a href="#Education">Education</a></li>
@@ -52,11 +54,10 @@
         <div class="user-profile flex-1">
             <div class="pro-details">
                 <div class="name">Oleg Kulikov</div>
-                <div class="role">ML/AI Engineer</div>
+                <div class="role">AI/ML Engineer</div>
             </div>
             <div class="text">
-                Student of Robotics & Artificial Intelligence with hands-on experience in backend development, RESTful APIs, and system architecture. Confident in working across teams, designing maintainable software, and improving internal workflows. Interested in ML-powered solutions, scalable systems, and backend automation. 
-                I’m proactive and enjoy finding smart, practical solutions to complex problems.
+                AI/ML Engineer focused on LLM-based systems, intelligent automation, and backend integration. Design and build end-to-end AI solutions, including RAG systems, AI agents, and workflow automation – from data ingestion and embedding pipelines to production deployment. Strong background in Python and PyTorch, with hands-on experience in the modern LLM stack (LangChain, LlamaIndex, Hugging Face, vector databases). Experienced in building APIs, data pipelines, and asynchronous workflows to integrate AI into real-world business systems.
             </div>
             <br>
             <div class="social-icons-head">
@@ -68,6 +69,20 @@
         </div>
     </div>
 </div>
+
+            <!-- Skills Section -->
+            <div class="section1 p-30" id="Skills">
+                <div class="sec-title">
+                    <div class="pg-sub-title">Skills</div>
+                    <div class="pg-title">Technical Expertise</div>
+                </div>
+                <div class="skills-content">
+                    <p><strong>Programming Languages:</strong> Python, Java, C, SQL. Confident in OOP, Algorithms, RESTful API.</p>
+                    <p><strong>AI/ML:</strong> LLM, A2A (LangGraph, CrewAI), RAG, LLM evaluation (LangSmith), GPT APIs, RL/RLHF</p>
+                    <p><strong>Frameworks & Tools:</strong> PyTorch, TensorFlow, Hugging Face (Transformers, PEFT, LoRA), LangChain, LlamaIndex, Git, Docker</p>
+                    <p><strong>Data Management:</strong> Weaviate, Chroma, pgvector, PostgreSQL, MongoDB, Supabase, Databricks, data pipelines</p>
+                </div>
+            </div>
 
             <!-- Portfolio Section -->
             <div class="section1 p-30" id="Portfolio">
@@ -97,25 +112,40 @@
             <div class="section1 p-30" id="WorkProfile">
                 <div class="sec-title">
                     <div class="pg-sub-title">Work Profile</div>
-                    <div class="pg-title">Past Experience</div>
-                    </div>
-                    <div class="job-title">
-                    <strong>Deputy Chief Financial Manager at "Ruble Boom" Group</strong> (04.2021 - 12.2024)
+                    <div class="pg-title">Experience</div>
+                </div>
+                <div class="job-title">
+                    <strong>AI Workflow Specialist at <a href="https://www.smartcat.com" target="_blank" class="company-smartcat">Smartcat</a></strong> (06.2025 - current)
                 </div>
                 <ul>
-                    <li>- Analysis of key performance indicators, strategy development, and implementation.</li>
-                    <li>- Team collaboration and business objective optimization.</li>
-                    <li>- Reduced company's average functional expenses by 14%.</li>
-                    <li>- Introduced new international logistics routes, reducing transportation costs by 22%.</li>
+                    <li>- Designed a hybrid RAG pipeline (vector + keyword search with reranking), boosting top-5 retrieval accuracy by 45% and stabilising production LLM outputs.</li>
+                    <li>- Automated AI-personalized email workflows for pre-meeting comms, lifting Booked-to-Held conversion by 21% via LLM-based segmentation and messaging.</li>
+                    <li>- Architected LLM-powered recruitment analytics dashboards, accelerating data-driven insights and streamlining hiring efficiency.</li>
+                    <li>- Built MCP-based tool integrations and agent-to-agent workflows for multi-step task decomposition and autonomous agent execution across external APIs and data sources.</li>
                 </ul>
                 <br>
                 <div class="job-title">
-                    <strong>Head of the Production and Technical Sector, RZD-Medicine</strong> (11.2018 - 03.2021)
+                    <strong><span class="company-freelance">Freelance / RLHF Platform</span> at Outlier</strong> (01.2025 - 05.2025)
                 </div>
                 <ul>
-                    <li>- Project management and implementation of a medical information system.</li>
-                    <li>- Optimization of routing and data storage.</li>
-                    <li>- Reduced operational costs across several clinic functions by up to 40%.</li>
+                    <li>- Reviewed and evaluated 300+ LLM-generated code samples across Python, Java, and JavaScript for correctness, edge-case handling, and task alignment.</li>
+                    <li>- Provided structured feedback used in RLHF fine-tuning pipelines; annotations covered reasoning chains, code logic, and output formatting quality.</li>
+                </ul>
+                <br>
+                <div class="job-title">
+                    <strong>Business Analyst (Deputy Finance Manager) at <span class="company-rubleboom">Ruble Boom Group</span></strong> (04.2021 - 12.2024)
+                </div>
+                <ul>
+                    <li>- Cut logistics costs by 13% via contract renegotiation and delivery model optimisation across CN/EU/US suppliers.</li>
+                    <li>- Consolidated financial metrics from multiple legacy sources into real-time executive reporting, eliminating manual data aggregation.</li>
+                </ul>
+                <br>
+                <div class="job-title">
+                    <strong>Head of Engineering Department in the Volga region at <a href="https://rzd-medicine.ru" target="_blank" class="company-rzd">RZD Medicine</a></strong> (11.2017 - 03.2021)
+                </div>
+                <ul>
+                    <li>- Led cross-departmental digital transformation across 5 divisions, standardising data flows and establishing a unified information environment.</li>
+                    <li>- Automated infrastructure monitoring and operational reporting across the medical network, replacing spreadsheet-based tracking with automated alerts and status feeds.</li>
                 </ul>
             </div>
 
@@ -124,20 +154,19 @@
                 <div class="sec-title">
                     <div class="pg-sub-title">Education</div>
                     <div class="pg-title">Academic Background</div>
-                    </div>
-                    <div class="edu-title">
-                    <strong>Robotics & Artificial Intelligence (Bachelor Program)</strong><br>
-                    Alpen-Adria-University Klagenfurt (03.2023 - Present)
+                </div>
+                <div class="edu-title">
+                    <strong>Robotics & Artificial Intelligence (Bachelor's Program)</strong><br>
+                    Alpen-Adria-Universität Klagenfurt (03.2023 - current)
                 </div>
                 <br>
                 <div class="edu-title">
-                    <strong>Commercial Law (Master Program)</strong><br>
-                    Saratov State University (N.G. Chernyshevsky) (09.2015 - 07.2017)
+                    <strong>Economics (Bachelor's Program), Commercial Law (Master's Program)</strong><br>
+                    Saratov State University (N.G. Chernyshevsky) (09.2011 - 07.2017)
                 </div>
                 <br>
-                <div class="edu-title">
-                    <strong>Economics (Bachelor Program)</strong><br>
-                    Saratov State University (N.G. Chernyshevsky) (09.2011 - 07.2015)
+                <div class="languages-line">
+                    <strong>Languages:</strong> English (C1), German (A2), Russian (native)
                 </div>
             </div>
 
