@@ -132,10 +132,10 @@
                     <div class="pg-title">Projects</div>
                     <div class="project-title">
                         <br>
-                        <strong><a href="https://github.com/OlegKulikov09/ViennaUP">Pipe Recognition – ViennaUP Startup Festival Hackathon</a></strong>
+                        <strong><a href="https://github.com/OlegKulikov09/ViennaUP">Image Recognition – ViennaUP Startup Festival Hackathon</a></strong>
                     </div>
                     <p>(Python, FastAPI, Ultralytics YOLO, PaddleOCR, OpenAI GPT-4.1 mini / Gemini 2.5 Flash, Folium/Leaflet, SQLite, Nuxt 4, TypeScript, Docker)</p>
-                    <p>Built a computer-vision service that turns a single buried-pipe inspection photo into a structured, mappable record – classifies protective elements (warning tape, ducts, wires) with a custom-trained YOLO model and extracts GPS coordinates from the camera watermark via PaddleOCR, with a vision-LLM fallback (GPT-4.1 mini / Gemini) when OCR misses. Achieved 100% accuracy at YOLO confidence ≥90% and €0 per 1000 photos on the self-hosted stack vs €15+ via cloud vision APIs. Paired with a Nuxt 4 frontend embedding a real-time Leaflet map with colour-coded detections. <a href="https://pipe-recognition-client.vercel.app/architecture">Live demo</a>.</p>
+                    <p>Built a computer-vision service that turns a single field-inspection photo into a structured, mappable record – classifies protective elements (warning tape, ducts, wires) with a custom-trained 4-class YOLO model and extracts GPS coordinates from the camera watermark via PaddleOCR, with a vision-LLM fallback (GPT-4.1 mini / Gemini 2.5 Flash) when OCR fails. Designed a 5-stage pipeline – perceptual-hash dedup, YOLO classification, parallel-band OCR with regex-based DMS/decimal parsing, LLM fallback, and real-time Leaflet map aggregation – reaching 100% accuracy at YOLO confidence ≥90% and end-to-end inference under 10 seconds per photo. Paired with a Nuxt 4 frontend embedding the live colour-coded map alongside per-photo reports. <a href="https://pipe-recognition-client.vercel.app/architecture">Live demo</a>.</p>
                     <div class="project-title">
                         <strong><a href="https://github.com/OlegKulikov09/ML-project">Reinforcement Learning Project</a></strong>
                     </div>
