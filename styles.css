@@ -646,3 +646,15 @@ Page Styles
 .company-rzd:hover {
     color: #B01030;
 }
+
+/* LinkedIn post link */
+.linkedin-link {
+    display: inline-block;
+    margin-top: 6px;
+    color: #0A66C2;
+    font-weight: 500;
+}
+
+.linkedin-link:hover {
+    color: #004182;
+}
